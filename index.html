@@ -29,12 +29,12 @@
 
   <header class="caption">
     <h1>AlephJS</h1>
-    <p>The React Framework in Deno</p>
+    <p>The React Framework for Production</p>
   </header>
 
   <section class="slide" id="cover">
     <h2>AlephJS</h2>
-    <p>The React Framework in Deno</p>
+    <p>The React Framework for Production</p>
     <a class="cover__lint" href="https://alephjs.org/" target="_blank" rel="noreferrer">
       <img src="pictures/alephjs-logo.svg" width="150" height="150" alt="Alephjs logo">
     </a>
@@ -140,6 +140,29 @@
     </style>
   </section>
 
+  <section class="slide slide--bs" id="alephjs">
+    <h2>AlephJS <span class="next">— top on React Framework</span></h2>
+    <img class="alephjs__logo next" src="pictures/alephjs-logo.svg" width="250" height="250" alt="Alephjs logo">
+    <a class="alephjs__lint next" href="https://alephjs.org/" target="_blank" rel="noreferrer">AlephJS</a>
+
+    <style>
+      #alephjs {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #alephjs .alephjs__logo {
+        margin: 20px 0 0;
+        align-self: center;
+      }
+
+      #alephjs .alephjs__lint {
+        align-self: center;
+        margin: auto 0 50px;
+      }
+    </style>
+  </section>
+
   <section class="slide slide--bs" id="spa">
     <h2>SPA <small class="next">(Single Page Application)</small></h2>
     <p class="spa__examples">
@@ -194,6 +217,106 @@
       <span class="next">-> Fetches Data 🗂 </span>
       <span class="next">-> HTML 📃</span>
     </p>
+  </section>
+
+
+  <section class="slide slide--bs" id="hybrid">
+    <h2>AlephJS is a</h2>
+    <p class="next"><b>Hybrid Framework</b><span>🦎</span></p>
+
+    <style>
+      #hybrid {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #hybrid h2 {
+        text-align: center;
+      }
+
+      #hybrid p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px 0 0;
+        text-align: center;
+        font-size: 50px;
+      }
+
+      #hybrid p b {
+        color: deeppink;
+      }
+    </style>
+  </section>
+
+  <section class="slide slide--bs" id="hybrid-examples">
+    <ul class="hybrid-examples__list">
+      <li>
+        <h2><span>Page A:</span> Static Generation</h2>
+        <p>📘</p>
+      </li>
+      <li>
+        <h2><span>Page B:</span> Client-side Generation</h2>
+        <p>📙</p>
+      </li>
+      <li>
+        <h2><span>Page B:</span> Server-side Generation</h2>
+        <p>📕</p>
+      </li>
+      <li>
+        <h2><span>Page B:</span> Client-side Generation<h2>
+        <p>📙</p>
+      </li>
+    </ul>
+
+    <style>
+      #hybrid-examples {
+        display: flex;
+        flex-direction: column;
+      }
+
+      #hybrid-examples .hybrid-examples__list {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+      }
+
+      #hybrid-examples .hybrid-examples__list h2 {
+        text-align: center;
+        font-size: 24px;
+      }
+
+      #hybrid-examples .hybrid-examples__list li {
+        width: 40%;
+        padding: 25px;
+      }
+
+      #hybrid-examples .hybrid-examples__list li p {
+        margin: 10px 0 0;
+        font-size: 50px;
+        text-align: center;
+      }
+
+      #hybrid-examples .hybrid-examples__list li:nth-child(1) span {
+        color: blue;
+      }
+
+      #hybrid-examples .hybrid-examples__list li:nth-child(3) span {
+        color: tomato;
+      }
+
+      #hybrid-examples .hybrid-examples__list li:nth-child(2) span,
+      #hybrid-examples .hybrid-examples__list li:nth-child(4) span {
+        color: peru;
+      }
+
+      #hybrid-examples .hybrid-examples__list li::before {
+        display: none;
+      }
+    </style>
   </section>
 
   <section class="slide slide--bs" id="practice">
